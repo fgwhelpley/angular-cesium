@@ -1470,6 +1470,13 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.3.tgz#90420f9f9c6d3987f176a19a7d8e764271a2f55d"
   integrity sha512-Fxt+AfXgjMoin2maPIYzFZnQjAXjAL0PHscM5pRTtatFqB+vZxAM9tLp2Optnuw3QOQC40jTNeGYFOMvyf7v9g==
 
+"@fgwhelpley/angular2parse@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@fgwhelpley/angular2parse/-/angular2parse-1.0.11.tgz#961688edb83950ac6bfb89cb4bffdc08c412aea5"
+  integrity sha512-bnIj7HN2Ej/4Dk3limEWg33lKuYt8q4OCbxKO+Nao2OgH//VNxZg0Dz7cLJKD5OfSnPZjNhQpsjnDm8ZhwigXQ==
+  dependencies:
+    tslib "^1.10.0"
+
 "@foliojs-fork/fontkit@^1.9.1":
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/@foliojs-fork/fontkit/-/fontkit-1.9.1.tgz#8124649168eb5273f580f66697a139fb5041296b"
@@ -2302,13 +2309,6 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha512-S2Hw0TtNkMJhIabBwIojKL9YHO5T0n5eNqWJ7Lrlel/zDbftQpxpapi8tZs3X1HWa+u+QeydGmzzNU0m09+Rcg==
-
-angular2parse@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/angular2parse/-/angular2parse-1.0.11.tgz#e94e56b3d1be0e2cbfb5ba3d30431a5eb793152e"
-  integrity sha512-kDHv8yyCYxX5hV/IIFdKoCpI2B6RF9gl+4QhN24cSv1x6Tafd83+LKm5oiRwAeytFLnV5jtLdsMOjldOZdLnoQ==
-  dependencies:
-    tslib "^1.10.0"
 
 ansi-colors@4.1.1:
   version "4.1.1"
