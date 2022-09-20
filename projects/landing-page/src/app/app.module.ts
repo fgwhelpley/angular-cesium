@@ -10,31 +10,30 @@ import { KeyboardControlLayerComponent } from './map-section/keyboard-control-la
 import { AngularCesiumModule, AngularCesiumWidgetsModule } from 'angular-cesium';
 import { MockDataProviderService } from './services/mock-data-provider.service';
 import { UFOsLayerComponent } from './map-section/ufos-layer/ufos-layer.component';
-import { NavBarComponent } from './about-section/nav-bar/nav-bar.component'
+import { NavBarComponent } from './about-section/nav-bar/nav-bar.component';
 import { AboutComponent } from './about-section/about/about.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MainMapComponent,
-    ToolbarExampleComponent,
-    MyCustomContextMenuComponent,
-    ContextMenuLayerComponent,
-    KeyboardControlLayerComponent,
-    UFOsLayerComponent,
-    NavBarComponent,
-    AboutComponent
-  ],
-  imports: [
-    BrowserModule,
-    AngularCesiumModule.forRoot(),
-    AngularCesiumWidgetsModule,
-    FontAwesomeModule
-  ],
-  entryComponents: [MyCustomContextMenuComponent],
-  providers: [MockDataProviderService],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        MainMapComponent,
+        ToolbarExampleComponent,
+        MyCustomContextMenuComponent,
+        ContextMenuLayerComponent,
+        KeyboardControlLayerComponent,
+        UFOsLayerComponent,
+        NavBarComponent,
+        AboutComponent
+    ],
+    imports: [
+        BrowserModule,
+        AngularCesiumModule.forRoot(),
+        AngularCesiumWidgetsModule,
+        FontAwesomeModule
+    ],
+    providers: [MockDataProviderService],
+    bootstrap: [AppComponent]
 })
 export class AppModule {
 }
