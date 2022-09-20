@@ -1516,10 +1516,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.14.54.tgz#de2a4be678bd4d0d1ffbb86e6de779cde5999028"
   integrity sha512-bZBrLAIX1kpWelV0XemxBZllyRmM6vgFQQG2GdNb+r3Fkp0FOh1NJSvekXDs7jq70k4euu1cryLMfU+mTXlEpw==
 
-"@fgwhelpley/angular2parse@^1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@fgwhelpley/angular2parse/-/angular2parse-1.0.11.tgz#961688edb83950ac6bfb89cb4bffdc08c412aea5"
-  integrity sha512-bnIj7HN2Ej/4Dk3limEWg33lKuYt8q4OCbxKO+Nao2OgH//VNxZg0Dz7cLJKD5OfSnPZjNhQpsjnDm8ZhwigXQ==
+"@fgwhelpley/angular2parse@^1.0.12":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@fgwhelpley/angular2parse/-/angular2parse-1.0.12.tgz#a6a84f7516844aacab938322150b7b74579773b5"
+  integrity sha512-kQjxrAr8onwnLzpa6/bjUpqGwkkZ5UFaLofIn5Ojr7ApcCMWywxx24pgYPw4bdrbZM4bGoqGfNM0JCUeCytoWQ==
   dependencies:
     tslib "^1.10.0"
 

@@ -16,7 +16,7 @@
     "cesium": ">= 1.48.0"
   },
   "dependencies": {
-    "@fgwhelpley/angular2parse": "^1.0.11",
+    "@fgwhelpley/angular2parse": "^1.0.12",
     "geodesy": "^1.1.1",
     "@types/geodesy": "^1.1.2",
     "json-string-mapper": "^1.0.0",
