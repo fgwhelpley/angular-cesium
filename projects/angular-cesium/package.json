@@ -13,7 +13,8 @@
   "peerDependencies": {
     "@angular/common": "^13.0.0",
     "@angular/core": "^13.0.0",
-    "cesium": ">= 1.48.0"
+    "cesium": ">= 1.48.0",
+    "rxjs": "~6.5.4"
   },
   "dependencies": {
     "@fgwhelpley/angular2parse": "^1.0.12",
@@ -33,5 +34,8 @@
     "copy:collection": "cp ./schematics/collection.json ../../dist/angular-cesium/schematics/collection.json",
     "postbuild": "npm run copy:files && npm run copy:collection"
   },
-  "schematics": "./schematics/collection.json"
+  "schematics": "./schematics/collection.json",
+  "engines": {
+    "yarn": "YARN NO LONGER USED - use npm instead."
+  }
 }
